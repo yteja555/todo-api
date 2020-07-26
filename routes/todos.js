@@ -1,8 +1,6 @@
 const express = require("express");
 const auth = require("../middleware/auth");
 const { ToDo, validateTodo } = require("../models/todo");
-const { User } = require("../models/user");
-const { route } = require("./users");
 const router = express.Router();
 
 // @desc get todos
